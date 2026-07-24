@@ -1,6 +1,6 @@
-# Type Service
+# Word Types Server
 
-Type Service is a Spring Boot REST API that classifies words in a sentence into English word types (noun, verb, adjective, etc.) and stores the results in PostgreSQL.
+Word Types Server is a Spring Boot REST API that classifies words in a sentence into English word types (noun, verb, adjective, etc.) and stores the results in PostgreSQL.
 
 It supports two classification modes:
 
