@@ -111,7 +111,7 @@ Build a jar:
 
 ```bash
 ./mvnw clean package
-java -jar target/type_service-0.0.1-SNAPSHOT.jar
+java -jar target/types_service-0.0.1-SNAPSHOT.jar
 ```
 
 Default base URL:
