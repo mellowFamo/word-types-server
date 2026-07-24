@@ -1,0 +1,48 @@
+{"properties": [
+  {
+    "name": "app.api-prefix",
+    "type": "java.lang.String",
+    "description": "Prefix for all API endpoints, e.g. /api/v1",
+    "defaultValue": "/api/v1"
+  },
+  {
+    "name": "app.cors.allowed-origins",
+    "type": "java.util.List<java.lang.String>",
+    "description": "Comma-separated list of allowed CORS origins"
+  },
+  {
+    "name": "app.openrouter.enabled",
+    "type": "java.lang.Boolean",
+    "description": "Flag to enable or disable OpenRouter integration"
+  },
+  {
+    "name": "app.openrouter.api-key",
+    "type": "java.lang.String",
+    "description": "API key for OpenRouter service"
+  },
+  {
+    "name": "app.openrouter.base-url",
+    "type": "java.lang.String",
+    "description": "Base URL for OpenRouter API"
+  },
+  {
+    "name": "app.openrouter.model",
+    "type": "java.lang.String",
+    "description": "Model to use for OpenRouter classification"
+  },
+  {
+    "name": "app.openrouter.site-url",
+    "type": "java.lang.String",
+    "description": "Optional referer URL sent as HTTP-Referer header to OpenRouter"
+  },
+  {
+    "name": "app.openrouter.app-name",
+    "type": "java.lang.String",
+    "description": "Optional application title sent as X-Title header to OpenRouter"
+  },
+  {
+    "name": "word-types.colours",
+    "type": "java.util.Map<java.lang.String, java.lang.String>",
+    "description": "Mapping of word types to their associated colours"
+  }
+]}
